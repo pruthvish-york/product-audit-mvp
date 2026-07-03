@@ -63,7 +63,7 @@ export function LandingScreen() {
               <input
                 value={auditorName}
                 onChange={(e) => { setAuditorName(e.target.value); setError('') }}
-                placeholder="e.g. Pruthvish Patel"
+                placeholder="e.g. Pruthvish"
                 className="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"
               />
             </div>
